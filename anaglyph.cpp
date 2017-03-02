@@ -33,7 +33,7 @@ int main(int argc, char **argv) {
     newImage[i] = rightImage[i];
     newImage[i+1] = leftImage[i+1];
     newImage[i+2] = leftImage[i+2];
-    newImage[i+3] = leftImage[i+3];
+    newImage[i+3] = leftImage[i+3]; //Assuming images have same alpha
   }
 
   unsigned newImageError = lodepng::encode(outputFilename, newImage, rightWidth, rightHeight);
