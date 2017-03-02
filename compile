@@ -1,0 +1,1 @@
+g++ lodepng.cpp anaglyph.cpp -o anaglyph.out -ansi -pedantic -Wall -Wextra -O3
